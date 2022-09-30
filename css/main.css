@@ -19,6 +19,7 @@ header {
 }
 .bars i {
     font-size: 24px;
+    cursor: pointer; 
 }
 .search i {
     color: #F1C935;
