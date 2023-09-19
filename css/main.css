@@ -31,7 +31,22 @@ body {
 	gap: 10px;
 	align-items: center;
 }
-
+.menu {
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu li {
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+.menu li a:hover {
+    color:#F1C935 ;
+    transition: all 0.3s ease;
+}
 .bars i {
     font-size: 24px;
     cursor: pointer; 
